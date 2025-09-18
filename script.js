@@ -156,6 +156,34 @@ class DesktopOS {
                     { text: 'EXECUTE', url: '#', icon: 'fas fa-play' },
                     { text: 'SOURCE', url: '#', icon: 'fab fa-github' }
                 ]
+            },
+            {
+                id: 'habit-streak-tracker',
+                name: 'STREAK_HACK.exe',
+                icon: 'fas fa-fire',
+                description: 'Advanced habit formation system with neural network-powered streak tracking, gamified rewards, biometric integration, and social accountability protocols.',
+                features: [
+                    {
+                        title: 'Neural Streak Analysis',
+                        description: 'AI-powered streak prediction and optimization using behavioral pattern recognition and habit formation algorithms.'
+                    },
+                    {
+                        title: 'Gamified Reward System',
+                        description: 'Blockchain-based achievement tokens and NFT rewards for habit completion milestones with social verification.'
+                    },
+                    {
+                        title: 'Social Accountability Network',
+                        description: 'Encrypted peer-to-peer accountability system with anonymous progress sharing and group challenge protocols.'
+                    },
+                    {
+                        title: 'Biometric Integration',
+                        description: 'Real-time physiological monitoring to track habit impact on health metrics and optimize formation strategies.'
+                    }
+                ],
+                links: [
+                    { text: 'EXECUTE', url: '#', icon: 'fas fa-play' },
+                    { text: 'SOURCE', url: '#', icon: 'fab fa-github' }
+                ]
             }
         ];
         
