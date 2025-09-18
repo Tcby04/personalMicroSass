@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKER_OS v2.0 - Portfolio Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="desktop">
+        <!-- Desktop Background -->
+        <div class="desktop-background">
+            <div class="wallpaper"></div>
+        </div>
+
+        <!-- Desktop Icons -->
+        <div class="desktop-icons" id="desktopIcons">
+            <!-- Project folders will be dynamically added here -->
+        </div>
+
+        <!-- Taskbar -->
+        <div class="taskbar">
+            <div class="start-button">
+                <i class="fas fa-terminal"></i>
+                <span>HACKER_OS</span>
+            </div>
+            <div class="taskbar-items">
+                <div class="taskbar-item active" data-window="desktop">
+                    <i class="fas fa-terminal"></i>
+                    <span>TERMINAL</span>
+                </div>
+            </div>
+            <div class="system-tray">
+                <div class="time" id="currentTime"></div>
+                <div class="volume">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                <div class="wifi">
+                    <i class="fas fa-wifi"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Windows Container -->
+        <div class="windows-container" id="windowsContainer">
+            <!-- Windows will be dynamically added here -->
+        </div>
+
+        <!-- Context Menu -->
+        <div class="context-menu" id="contextMenu">
+            <div class="context-item" data-action="new-folder">
+                <i class="fas fa-folder-plus"></i>
+                <span>NEW_EXECUTABLE</span>
+            </div>
+            <div class="context-item" data-action="refresh">
+                <i class="fas fa-sync-alt"></i>
+                <span>REFRESH_SYSTEM</span>
+            </div>
+            <div class="context-item" data-action="properties">
+                <i class="fas fa-cog"></i>
+                <span>SYSTEM_INFO</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
